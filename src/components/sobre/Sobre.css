@@ -1,0 +1,11 @@
+.sobre h1 {
+    text-align: center;
+}
+
+.habilidadesOne {
+    display: flex;
+}
+
+.habilidadesTwo {
+    display: flex;
+}

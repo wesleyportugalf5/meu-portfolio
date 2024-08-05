@@ -1,0 +1,16 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.contatoTopo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contatoRedes {
+    display: flex;
+    justify-content: center;
+    column-gap: 6px;
+    padding-bottom: 25px;
+}
