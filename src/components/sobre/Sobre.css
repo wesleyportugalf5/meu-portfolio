@@ -1,11 +1,28 @@
-.sobre h1 {
+.sobre {
+    padding-bottom: 50px;
+}
+
+.sobreMim {
+    display: flex; 
+    flex-direction: column;
     text-align: center;
+    padding-bottom: 26px;
 }
 
-.habilidadesOne {
-    display: flex;
+.habilidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+    gap: 15px;
 }
 
-.habilidadesTwo {
-    display: flex;
+.habilidades p {
+    background-color: #E5E5E5;
+    text-align: center;
+    padding: 7px;
+    border-radius: 0.25rem;
+    font-size: 18px;
+}
+
+.habilidadesContainer h1 {
+    text-align: center;
 }

@@ -15,11 +15,12 @@ function Contato() {
                 <FaEnvelope />
                 <p>wesleyportugal250@gmail.com</p>
                 <FaLinkedin />
-                <p>linkedin.com/wesleyportugal</p>
+                <p><a href="https://www.linkedin.com/in/wesleyportugal/" target="_blank" rel="noopener noreferrer">linkedin.com/in/wesleyportugal
+                </a></p>
                 <FaSquareWhatsapp />
                 <p>21 97498-6196</p>
                 <FaGithub />
-                <p>github.com/wesleyportugalf5</p>
+                <p><a href="https://github.com/wesleyportugalf5" target="_blank" rel="noopener noreferrer">github.com/wesleyportugalf5</a></p>
             </div>
         </section>
     )

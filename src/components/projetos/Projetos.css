@@ -1,3 +1,68 @@
+.projetos {
+    padding-bottom: 20px;
+}
+
 .projetos h1 {
     text-align: center;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projetos button {
+    border-radius: 0.25rem;
+    border: 1px solid black;
+    background-color: transparent;
+    width: 141px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.projetos button:hover {
+    transition: 0.4s;
+    background-color: rgb(240, 239, 239);
+}
+
+.projetosContainer {
+    display: flex;
+    column-gap: 25px;
+}
+
+.projetosElementos {
+    display: flex;
+    width: 400px;
+    row-gap: 5px;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    border: 1px solid black;
+}
+
+.projetosElementosTexto {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px;
+}
+
+.projetosElementosTexto h3 {
+    margin: 0px;
+}
+
+.tecnologias {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.tecnologiasAndBtn p {
+    padding-bottom: 15px;
+}
+
+#tecnologiasAndBtnViagem {
+    padding-top: 45px;
+}
+
+#tecnologiasAndBtnCafeteria {
+    padding-top: 68px;
 }
