@@ -22,7 +22,8 @@
 
 .projetos button:hover {
     transition: 0.4s;
-    background-color: rgb(240, 239, 239);
+    background-color: black;
+    color: white;
 }
 
 .projetosContainer {
@@ -65,4 +66,14 @@
 
 #tecnologiasAndBtnCafeteria {
     padding-top: 68px;
+}
+
+.projetosImg {
+    border-radius: 0rem 0rem 0.25rem 0.25rem;
+    width: 315px;
+    height: 226.41px;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    /* background: url(imagens/nome.png) center / cover no-repeat; */
 }

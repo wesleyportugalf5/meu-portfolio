@@ -10,3 +10,7 @@ header {
     display: flex;
     column-gap: 25px;
 }
+
+.menu li {
+    cursor: pointer;
+}

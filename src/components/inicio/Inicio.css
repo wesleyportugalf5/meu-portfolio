@@ -1,4 +1,40 @@
 .inicio {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
     padding-bottom: 50px;
+}
+
+.inicioApresentacao h1 {
+    font-size: 45px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.apresentacaoTexto {
+    padding-bottom: 15px;
+}
+
+.minhaFoto {
+    width: 350px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.inicio button {
+    border-radius: 0.25rem;
+    border: 1px solid black;
+    background-color: transparent;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.inicio button:hover {
+    transition: 0.4s;
+    background-color: black;
+    color: white;
 }
